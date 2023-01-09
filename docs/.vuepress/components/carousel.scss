@@ -1,0 +1,31 @@
+.carousel {
+  position: relative;
+}
+.carousel--horizontal {
+  overflow-x: hidden;
+}
+.carousel_container{
+  position: relative;
+  height: 300px;
+}
+.carousel_indicators {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  display: flex !important;
+}
+
+.carousel_indicators--horizontal {
+  display: inline-block;
+  padding: 12px 4px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.carousel_indicators--horizontal .is-active{
+  button {
+    opacity: 1;
+  }
+}
