@@ -2,11 +2,11 @@
 轮播组件
 
 ### 示例
-<m-carousel height="150px">
+<!-- <m-carousel height="150px">
   <m-carousel-item v-for="item in 4" :key="item">
     <h3 class="small">{{ item }}</h3>
   </m-carousel-item>
-</m-carousel>
+</m-carousel> -->
 
 ### 代码
 ```html
